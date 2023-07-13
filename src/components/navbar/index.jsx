@@ -47,7 +47,6 @@ export default function Navbar() {
                             />
                         </g>
                     </svg>
-
                     <div className="absolute top-0 right-0 border-8 border-transparent border-r-white border-t-white"></div>
                 </button>
             </div>
