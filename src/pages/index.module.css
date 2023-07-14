@@ -1,0 +1,46 @@
+.background-image {
+    position: relative;
+    background-image: url("/images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100svh;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    /* background: rgba(0, 0, 0, 0.8); */
+}
+
+.content {
+    position: relative;
+}
+
+.form {
+    --signIn_width: 6rem;
+    --signIn_height: 2.5rem;
+    --signIn_bottomLeftTriangleSideLength: 1rem;
+    --signIn_topRightTriangleSideLength: 0.9rem;
+
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px -50px 150px 0px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.scroll {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}

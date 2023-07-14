@@ -14,7 +14,7 @@ export default function Layout({ children }) {
                 <meta name="keyword" content="Dev-in.tw" />
             </Head>
             <Navbar />
-            <div className="h-[100svh]">{children}</div>
+            <div className="h-[100svh] select-none">{children}</div>
         </>
     );
 }
