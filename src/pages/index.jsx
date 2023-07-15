@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className={styles["background-image"] + " h-[100svh]"}>
             <div className={styles.content + " h-full"}>
-                <div className="h-[calc(100%-80px)] pt-[90px]">
+                <div className="h-[calc(100%-90px)] pt-[90px]">
                     <div className="flex flex-col w-[52%] h-full mx-auto my-auto align-middle">
                         <div className="my-auto text-center">
                             <h1 className="text-[84px] text-center text-white font-major-mono font-bold">
