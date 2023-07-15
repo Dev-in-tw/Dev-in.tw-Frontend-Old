@@ -46,7 +46,7 @@ export default function Home() {
                         "h-[80px] hover:cursor-pointer"
                     )}
                 >
-                    <ArrowDown className="" />
+                    <ArrowDown />
                 </div>
             </div>
         </div>
