@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Logo from "../icons/Logo";
 import { useRouter } from "next/router";
 import styles from "@/components/navbar/index.module.css";
 import btnstyles from "@/components/navbar/btn.module.css";
@@ -7,8 +8,13 @@ export default function Navbar() {
     const router = useRouter();
     return (
         <div className={styles.main + " logo select-none z-[999999999999999]"}>
-            <button className={styles.logo} onClick={ () => {router.push("/")}}>
-                <img src={"/images/logo.svg"} alt={"logo"} />
+            <button
+                className={styles.logo}
+                onClick={() => {
+                    router.push("/");
+                }}
+            >
+                <Logo />
             </button>
             <div className={styles.frame}>
                 <div className={btnstyles.signInButton}>
