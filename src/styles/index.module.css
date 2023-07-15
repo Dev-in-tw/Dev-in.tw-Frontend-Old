@@ -47,6 +47,15 @@
     border-color: transparent transparent white transparent;
 }
 
+.checkbox {
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
 .scroll {
     display: flex;
     padding-bottom: 0px;
